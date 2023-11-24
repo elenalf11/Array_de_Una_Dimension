@@ -52,7 +52,7 @@ public class Actividad4 {
 		 * Aquí recorro el array para buscar el número y decir la posición en la que se encuentra 
 		 */
 		
-		for (int i = 1; i < longitud; i++) {
+		while (encontrado == false && i < longitud) {
 			
 			/**
 			 * Si el programa encuentra el número escribe este mensaje
